@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+        }
+        header {
+            background: #6a0dad;
+            padding: 15px;
+            color: white;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            background: white;
+        }
+        .hero-text {
+            max-width: 50%;
+            text-align: left;
+        }
+        .hero-text h1 {
+            font-size: 36px;
+        }
+        .highlight {
+            color: #6a0dad;
+            font-weight: bold;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn-primary {
+            background: #6a0dad;
+            color: white;
+        }
+        .btn-secondary {
+            border: 2px solid #6a0dad;
+            color: #6a0dad;
+        }
+        .hero-image img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 5px solid #6a0dad;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        footer {
+            background: #6a0dad;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skillset</a></li>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#contact">Say Hi!</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>I'm <span class="name">Nimisha Nooti</span>, a <span class="highlight">Data Enthusiast.</span></h1>
+            <p>Masters in Business Analytics<br>
+            <strong>State University of New York, University at Buffalo</strong> <br>
+            Bachlors in  Mechanical Engineering <br>
+            <strong>Jawaharlal Nehru Technological University</strong></p>
+            <div class="buttons">
+                <a href="#work" class="btn-primary">Discover my work</a>
+                <a href="resume.pdf" class="btn-secondary">View Resume</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="placeholder-image.jpg" alt="Profile Picture">
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate about leveraging technology to drive strategic business growth, I specialize in making data into doing something with it and developing creative solutions.
+
+            Being a Management postgraduate with a strong Data Science foundation, I am currently serving as a Student Assistant at the University at Buffalo, where I apply analytical skills and business acumen to support local businesses in making data-driven decisions. My tasks involve predictive modeling, trend analysis, and strategic recommendations to optimize performance and foster growth for Buffalo, New York-based firms.
+            <br>
+            <h3>Key Strengths:</h3>
+            ✔ Data-Driven Decision Making – Uncovering patterns to forecast trends and guide strategies.<br>
+            ✔ Business-Technology Integration – Bridging analytics to management for impactful solutions.<br>
+            ✔ Problem-Solving – Developing scalable, innovative solutions to actual problems.<br><br>
+            
+            I thrive at the intersection of data, technology, and business strategy, allowing organizations to transform complexity into competitive advantage.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        ✔ <b>Programming Languages:</b> Python, SQL, Java, C#, VB.net, R<br>
+        ✔ <b>ETL/Data Pipelines:</b> Airflow, Informatica, Spark ETL<br>
+        ✔ <b>Big Data Technologies:</b> Hadoop, Spark, Kafka, Hive, Flink<br>
+        ✔ <b>Data Modeling:</b> Star/Snowflake schemas, OLAP vs. OLTP, Normalization<br>
+        ✔ <b>Data Analysis & Visualization:</b> Excel, Tableau, Power BI, Matplotlib, Seaborn</li><br>
+        ✔ <b>Database Systems:</b> SQL (PostgreSQL, MySQL), NoSQL (MongoDB), Data Warehousing (Snowflake, Redshift, BigQuery)<br>
+        ✔ <b>Cloud Platforms:</b> Oracle Colud, AWS (Glue, S3, Redshift), Azure (Data Factory, Synapse), GCP (BigQuery, Dataflow)<br>
+        ✔ <b>Development Tools:</b> HTML, CSS, JavaScript, Xaml (WPF Forms), Git, Jira, BitBucket, Visual Studios, Jankins<br>
+    </section>
+    
+    <section id="work">
+        <h2>My Work</h2>
+        <p>Some of my latest projects and case studies.</p>
+        <p><h3>Project Clinic Intern (Student Assistant) at the University at Buffalo</h3>
+                <b>Role:</b> Gathering data from digital, and traditional marketing channels, Dashboard Development-Creating and maintaining dashboards to track marketing metrics and KPIs. Analyzing data to identify trends and insights that can optimize marketing strategies.collected, analysed, and processesd data from online and offline marketing channels. By translating raw data into actionable insights, By allowing businesses to make data-informed decisions that enhance campaign performance, maximize ROI, and calibrate overall marketing strategies. My work bridges the gap between data science and marketing so that every decision is backed by evidence rather than guesswork.</p>
+                
+                <a href="https://github.com/yourusername/project1" target="_blank">Project 1</a>
+        <p><h3>Customization Developer at Nhance Consulting Engineers Pvt. Ltd.</h3>
+                <b>Role:</b> Developed and automated mechanical design processes, Created and integrated plugins with CAD desktop applications using APIs. (Application Development), Conducted in-depth development of custom features with user- interface and tools for Design and Analysis Software.</p>
+                <a href="https://github.com/yourusername/project2" target="_blank">Project 2</a>
+        <a href="https://github.com/yourusername/project3" target="_blank">Project 3</a>
+        </ul>
+    </section>
+    
+    <section id="certification">
+        <h2>Certifications</h2>
+        <p>Certified Data Analyst, Google Data Analytics Certificate</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
